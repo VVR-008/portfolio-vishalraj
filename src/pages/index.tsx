@@ -56,7 +56,7 @@ export default function Portfolio() {
 
   // Typewriter effect with neon cursor
   useEffect(() => {
-    const text = introTexts[currentText]
+    const text = introTexts[currentText] ?? ""
     let index = 0
     setDisplayText("")
     setIsTyping(true)
