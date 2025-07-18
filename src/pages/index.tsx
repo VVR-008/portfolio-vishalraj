@@ -21,7 +21,9 @@ import {
   Sparkles,
   Mic,
   Eye,
+  Download,
 } from "lucide-react"
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import {
@@ -336,6 +338,11 @@ export default function Portfolio() {
             >
               Learn more
             </Button>
+            <Link href="/assets/resume.pdf" target="_blank" download>
+            <Button className="bg-cyan-400/20 text-cyan-400 border-cyan-400/30 hover:bg-cyan-400/50 hover:shadow-glow transition-all duration-300">
+                 Download Resume <Download className="ml-1 h-4 w-4" />
+            </Button>
+            </Link>
           </motion.div>
           <motion.div
             className={`flex items-center space-x-2 text-gray-400 ${isScrolled ? "opacity-0" : "opacity-100"} transition-opacity`}
@@ -386,8 +393,7 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="py-16 pb-2 text-3xl font-light leading-normal tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-pink-500 xl:text-[40px]"
           >
-            I'm an aspiring AI Engineer and full-stack developer proficient in{" "}
-
+        I&apos;m an aspiring AI Engineer and full-stack developer proficient in
             since 2023. My experience includes building lifelike AI avatars and intelligent systems, contributing to innovative projects in AI, machine learning, and voice automation.
           </motion.h2>
           <motion.div
@@ -658,8 +664,7 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="text-4xl font-medium tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-pink-500 xl:text-6xl"
           >
-            Let's Build <span className="clash-grotesk">the Future</span>
-          </motion.h2>
+         Let&apos;s Build <span className="clash-grotesk">the Future</span>      </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -667,7 +672,7 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="mt-1.5 text-base tracking-tight text-gray-400 xl:text-lg"
           >
-            Let's connect and build innovative AI solutions together. Whether it's a project collaboration or a tech conversation, I'm excited to meet fellow innovators.
+            Let&apos;s connect and build the future of AI together. Whether it&apos;s a project collaboration, research opportunity, or just a tech conversation, I&apos;m always excited to meet fellow innovators.
           </motion.p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8 w-full">
             <div className="space-y-6">
@@ -747,8 +752,7 @@ export default function Portfolio() {
                 </div>
                 <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-pink-500">Ready to Collaborate?</h3>
                 <p className="text-gray-400 leading-relaxed max-w-md">
-                  Let's connect and build the future of AI together. Whether it's a project collaboration, research opportunity, or just a tech conversation, I'm always excited to meet fellow innovators.
-                </p>
+                  Let&apos;s connect and build innovative AI solutions together. Whether it&apos;s a project collaboration or a tech conversation, I&apos;m excited to meet fellow innovators.                </p>
                 <Link href="mailto:vvr484324@gmail.com">
                   <Button className="mt-6 bg-cyan-400/20 text-cyan-400 border-cyan-400/30 hover:bg-cyan-400/50 hover:shadow-glow transition-all duration-300">
                     Start a Conversation

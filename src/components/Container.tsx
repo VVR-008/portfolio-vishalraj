@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { cn, scrollTo } from "@/lib/utils";
+import { cn, scrollTo } from "../lib/utils";
 import { useState, useEffect } from "react";
-import Footer from "@/components/Footer";
+import Footer from "../components/Footer";
 import { useRouter } from "next/router";
-import Preloader from "@/components/Preloader";
 import styles from "@/styles/Container.module.css";
 
 type IconProps = {
@@ -241,7 +240,7 @@ export default function Container(props: ContainerProps) {
 
       {/* Preloader */}
       <AnimatePresence mode="wait">
-        {isLoading && <Preloader />}
+        {isLoading}
       </AnimatePresence>
 
       {/* Main content */}
