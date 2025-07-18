@@ -9,7 +9,7 @@
     "lint": "next lint",
     "start": "next start",
     "type-check": "tsc --noEmit",
-    "format": "prettier --write ./src/**/*.{ts,tsx,js,jsx,json,md}"
+    "format":  "prettier --write ./src/**/*.{ts,tsx,js,jsx,json,md}"
   },
   "dependencies": {
     "@radix-ui/react-hover-card": "^1.1.2",
