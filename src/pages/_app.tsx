@@ -1,8 +1,6 @@
 import { type AppType } from "next/dist/shared/lib/utils";
-
 import "@/styles/globals.css";
- import "@/styles/locomotive-scroll.css";
-
+import "@/styles/locomotive-scroll.css";
 import { DM_Sans } from "next/font/google";
 
 const dmSans = DM_Sans({
