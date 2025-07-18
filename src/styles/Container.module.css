@@ -13,7 +13,7 @@ import styles from "@/styles/Container.module.css";/* navbar */
 .burger {
   @apply relative h-40 w-40 border-0 bg-transparent transition-opacity duration-300;
 }
-.burger svg {
+.burgern svg {
   @apply top-1/2 left-1/2 translate-x-[200%] -translate-y-[38%] scale-100 transform opacity-100 transition-opacity transition-transform duration-300 duration-300;
 }
 .burger svg[data-hide="true"] {
