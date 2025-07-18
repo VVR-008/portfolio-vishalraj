@@ -49,7 +49,7 @@ export default function Portfolio() {
   const [count, setCount] = useState<number>(0)
 
   const introTexts = [
-    "Hi, I&apos;m Vislavath Vishal Raj.",
+    "Hi, I'm Vislavath Vishal Raj.",
     "Crafting lifelike AI avatars with real-time speech.",
     "Pushing boundaries in generative AI and machine learning.",
     "Building intelligent systems that see, speak, and evolve.",
