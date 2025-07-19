@@ -8,7 +8,6 @@ import {
   Mail,
   Phone,
   Linkedin,
-  MapPin,
   Code,
   Brain,
   Zap,
@@ -189,7 +188,7 @@ export default function Portfolio() {
       github: "github.com/VVR-008/Smartify",
       status: "Completed",
       image: "/assets/smartify.png",
-      href: "github.com/VVR-008/Smartify",
+      href: "https://github.com/VVR-008/Smartify",
     },
     {
       title: "AvatarLab",
@@ -208,7 +207,7 @@ export default function Portfolio() {
       github: "github.com/VVR-008/AvatarLab",
       status: "Completed",
       image: "/assets/avatarlab.png",
-      href: "github.com/VVR-008/AvatarLab",
+      href: "https://github.com/VVR-008/AvatarLab-G331-PS25",
     },
   ]
 
