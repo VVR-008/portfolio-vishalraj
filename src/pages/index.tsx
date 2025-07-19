@@ -768,7 +768,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400">
             © 2025 Vislavath Vishal Raj. Crafted with passion for AI and innovation.
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-pink-500 ml-2">Building tomorrow's intelligent systems, today.</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-pink-500 ml-2">Building tomorrow&apos;s intelligent systems, today.</span>
           </p>
         </div>
       </footer>
